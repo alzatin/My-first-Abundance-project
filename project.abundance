@@ -1,15 +1,50 @@
 {
     "atomType": "Molecule",
-    "name": "My first Abundance project",
+    "name": "My-first-Abundance-project",
     "x": 0,
     "y": 0,
     "uniqueID": 1722884596554,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1722884604815,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1722884609058
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.34038054968287523,
+            "y": 0.5775075987841946,
+            "uniqueID": 1722884609058,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722884609058,
+            "ap2ID": 1722884604815
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
